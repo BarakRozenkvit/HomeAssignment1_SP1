@@ -4,7 +4,7 @@
 int main(){
     int x = 0;
     int y = 0;
-    printf("Enter Two Numbers: \n");
+    //printf("Enter Two Numbers: \n");
     scanf("%d%d",&x,&y);
     int min = 0;
     int max = 0;
@@ -16,28 +16,28 @@ int main(){
         max = y;
         min = x;
     }
-    printf("The Armstrong numbers are: ");
+    printf("The Armstrong numbers are:");
     for(int i=min;i<=max;i++){
         int result = isArmstrong(i);
-        if(result){printf("%d ",i);}
+        if(result){printf(" %d ",i);}
     }
     
-    printf("\nThe Palindromes are: ");
+    printf("\nThe Palindromes are:");
     for(int i=min;i<=max;i++){
         int result = isPalindrome(i);
-        if(result){printf("%d ",i);}
+        if(result){printf(" %d ",i);}
     }
     
-    printf("\nThe Prime numbers are: ");
+    printf("\nThe Prime numbers are:");
     for(int i=min;i<=max;i++){
         int result = isPrime(i);
-        if(result){printf("%d ",i);}
+        if(result){printf(" %d ",i);}
     }
     
-    printf("\nThe Strong numbers are: ");
+    printf("\nThe Strong numbers are:");
     for(int i=min;i<=max;i++){
         int result = isStrong(i);
-        if(result){printf("%d ",i);}
+        if(result){printf(" %d ",i);}
     }
     return 0;
 }
