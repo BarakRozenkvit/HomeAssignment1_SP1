@@ -1,8 +1,6 @@
 #include "NumClass.h"
 
 int reverseNumber(int n){
-    int i=8;
-    int y=5;
     int result = 0;
     while (n>0){
         int digit = n%10;
