@@ -1,0 +1,52 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1",
+            "binaryPath": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1/progMain1",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1",
+            "binaryPath": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1/progMain2",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1",
+            "binaryPath": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1/progMain",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1",
+            "binaryPath": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1/progLoop",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1",
+            "binaryPath": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1/progRec",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1",
+            "binaryPath": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1/maindloop",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1",
+            "binaryPath": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1/program",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1",
+            "binaryPath": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1/mains",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1",
+            "binaryPath": "/Users/barakrozenkvit/eclipse-workspace/HomeAssignment1_SP1/maindrec",
+            "binaryArgs": []
+        }
+    ],
+    "files.associations": {
+        "numclass.h": "c"
+    }
+}
