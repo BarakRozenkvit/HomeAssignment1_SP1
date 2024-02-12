@@ -21,19 +21,19 @@ int main(){
         int result = isArmstrong(i);
         if(result){printf(" %d",i);}
     }
-    
+    printf(" ");
     printf("\nThe Palindromes are:");
     for(int i=min;i<=max;i++){
         int result = isPalindrome(i);
         if(result){printf(" %d",i);}
     }
-    
+    printf(" ");
     printf("\nThe Prime numbers are:");
     for(int i=min;i<=max;i++){
         int result = isPrime(i);
         if(result){printf(" %d",i);}
     }
-    
+    printf(" ");
     printf("\nThe Strong numbers are:");
     for(int i=min;i<=max;i++){
         int result = isStrong(i);
