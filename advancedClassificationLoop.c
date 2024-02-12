@@ -1,8 +1,10 @@
 #include "NumClass.h"
 
+
 int reverseNumber(int n){
     int result = 0;
     while (n>0){
+        // Get digit, add to result and subtract from original number
         int digit = n%10;
         result = result*10;
         result+=digit;
@@ -13,7 +15,9 @@ int reverseNumber(int n){
 }
 
 int isPalindrome(int n){
+    // If number start with 0 return false
     if(n%10 == 0){return 0;}
+    // Compare the number with the reversed
     return n == reverseNumber(n);
 }
 
