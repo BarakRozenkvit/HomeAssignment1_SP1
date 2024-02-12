@@ -16,7 +16,8 @@ int isStrong(int n){
 }
 
 int isPrime(int n){
-    if(n==0 || n==1){return 0;}
+    if(n==0){return 0;}
+    if(n==1){return 1;}
     int i=2;
     float res = 0.0;
     while(i*i<=n){
