@@ -36,5 +36,6 @@ int main(){
         int result = isStrong(i);
         if(result){printf(" %d",i);}
     }
+    printf("\n");
     return 0;
 }
